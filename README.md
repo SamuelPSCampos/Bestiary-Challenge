@@ -13,6 +13,7 @@ UTF-8 output is enabled automatically using chcp 65001.
 
 ## Output Example
 
+```text
 |================================
 |   Mosburg 🐛🌿
 |--------------------------------
@@ -22,11 +23,13 @@ UTF-8 output is enabled automatically using chcp 65001.
 |        Damage:⬜⬛⬛⬛⬛⬛⬛⬛⬛⬛
 |        Health:⬜⬜⬜⬜⬛⬛⬛⬛⬛⬛
 ...
+```
 
 ## Adding Monsters
 
 Add new monsters by extending the monsters table:
 
+```text
 monsters["Example Name"] = {
     description = "Example creature.",
     representation = "🐾",
@@ -38,3 +41,4 @@ monsters["Example Name"] = {
         intelligence = maxIntelligence * 0.2,
     },
 }
+```
