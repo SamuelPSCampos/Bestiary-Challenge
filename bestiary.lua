@@ -27,7 +27,7 @@ local maxBlock = 10 -- Maximum number of blocks per bar
 --==============================
 
 local monsters = {
-    ["Mosburg"] = {
+    ["Mossgrub"] = {
         description = "Fur covered crawler with a series of sharp spikes along its back.",
         representation = "🐛🌿",
         stats = {
